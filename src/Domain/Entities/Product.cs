@@ -19,5 +19,8 @@ namespace FluentPOS.Domain.Entities
         public decimal AlertQuantity { get; set; }
         [Column(TypeName = "text")]
         public string Detail { get; set; }
+        public string Barcode { get; set; }
+        public string Unit { get; set; }
+        public string Description { get; set; }
     }
 }
